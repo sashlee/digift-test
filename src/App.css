@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -11,7 +11,7 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
-}
+} */
 
 .App-header {
   background-color: #282c34;
@@ -36,3 +36,40 @@
     transform: rotate(360deg);
   }
 }
+
+.white-content {
+  background: #fff !important;
+}
+.white-content .caption h1 {
+  color: #000 !important;
+}
+
+.white-content .arrivals-section-title h1 {
+  color: #000 !important;
+}
+.dark-content {
+  background: #000 !important;
+}
+
+.dark-content a,
+h1 {
+  color: #fff !important;
+}
+.dark-content footer h5 {
+  color: #fff !important;
+}
+
+.dark-content .business-hero-text {
+  color: #fff;
+}
+
+.dark-content .business-hero-text small {
+  color: #fff;
+}
+/* @media screen and (max-width: 480px) {
+  body {
+    box-sizing: border-box !important;
+    overflow: hidden !important;
+    width: 100vw !important;
+  }
+} */

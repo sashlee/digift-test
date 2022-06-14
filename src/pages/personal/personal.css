@@ -1,0 +1,105 @@
+.hero-section {
+  padding: 0;
+  border-radius: 8px;
+  margin-top: 60px;
+  flex-direction: column;
+}
+
+.amazon-card {
+  position: relative;
+  top: 185px;
+}
+.hero-text {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  text-align: center;
+  padding: 95px 0;
+}
+.hero-text h1 {
+  font-size: 36px;
+}
+.hero-subtext {
+  font-size: 14px;
+  padding: 18px 25px;
+}
+.atm-card {
+  position: relative;
+  right: -79px;
+  bottom: -212px;
+}
+.overlay {
+  position: absolute;
+  z-index: 10000000;
+  mix-blend-mode: soft-light;
+}
+
+.shopping {
+  font-size: 14px;
+  color: #0069e0;
+  font-weight: 600;
+  width: 168px;
+  height: 49px;
+  background: #ffffff;
+  box-shadow: 4px 4px 0px #5ca5ff;
+  border-radius: 4px;
+  line-height: 17px;
+  letter-spacing: -0.02em;
+}
+.curls {
+  padding-left: 20px;
+}
+
+.curls-left {
+  padding-right: 20px;
+}
+
+@media screen and (max-width: 480px) {
+  .hero-section-cover {
+    flex-direction: column;
+  }
+  .hero-section {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .amazon-card-wrapper {
+    display: none;
+  }
+  .atm-card-wrapper {
+    display: none;
+  }
+
+  .filter-section {
+    display: none;
+  }
+
+  .arrivals-section {
+    flex-direction: column;
+  }
+  .categories {
+    margin-left: 0 !important;
+    margin-right: 18px !important;
+  }
+  .caption {
+    padding: 40px !important;
+  }
+  .caption h1 {
+    font-size: 30px !important;
+    width: 350px;
+  }
+  .review {
+    flex-direction: column !important;
+  }
+  .review-card {
+    width: auto !important;
+    height: auto !important;
+    margin: 10px 20px 18px 0 !important;
+  }
+  .billboard h1 {
+    font-size: 30px !important;
+  }
+  .billboard {
+    padding: 68px;
+  }
+}

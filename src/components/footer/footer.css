@@ -1,0 +1,38 @@
+footer {
+  font-size: 14px;
+}
+footer h5 {
+  font-size: 14px;
+}
+footer a {
+  color: #8a91a8;
+  text-decoration: none;
+}
+footer span {
+  color: #8a91a8;
+}
+
+.divider {
+  border: 1px solid #f5f7fa;
+  margin-top: 30px !important;
+  margin-bottom: 50px !important;
+}
+/* .sub-footer {
+  padding-top: 40px;
+} */
+.sub-footer-text {
+  line-height: 28px;
+  letter-spacing: -0.02em;
+}
+.first-row {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: -0.02em;
+  color: #000429;
+}
+
+.image {
+  padding-right: 16px;
+}

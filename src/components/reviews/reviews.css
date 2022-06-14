@@ -1,0 +1,74 @@
+.caption {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 100px;
+}
+.caption h1 {
+  font-size: 56px;
+  width: 90%;
+}
+
+.review-card {
+  width: 20rem;
+  height: 20rem;
+  border: 2px solid #ebeff5;
+  border-radius: 8px;
+}
+
+.review-card-text {
+  font-size: 14px;
+  /* font-size: 16px; */
+  line-height: 28px;
+  letter-spacing: -0.02em;
+  color: #8a91a8;
+  margin-bottom: 90px;
+}
+
+.review-second-card-text {
+  font-size: 14px;
+  /* font-size: 16px; */
+  line-height: 25px;
+  letter-spacing: -0.02em;
+  color: #8a91a8;
+  margin-bottom: 52px;
+}
+
+.review-third-card-text {
+  font-size: 14px;
+
+  line-height: 25px;
+  letter-spacing: -0.02em;
+  color: #8a91a8;
+  margin-bottom: 127px;
+}
+
+.billboard {
+  padding: 95px;
+  border-radius: 8px;
+  background: linear-gradient(180deg, #0073f5 0%, #006be0 100%);
+  box-shadow: 0px 12px 0px #5ca5ff;
+  border-radius: 32px;
+  margin-top: 100px;
+  color: #fff;
+}
+.billboard h1 {
+  font-size: 45px;
+  font-weight: 700;
+}
+
+.review-card-footer {
+  padding-left: 10px;
+  align-items: center;
+}
+
+.review-card-footer-text {
+  font-size: 14px;
+}
+
+.review-overlay {
+  position: absolute;
+  z-index: 10000000;
+  mix-blend-mode: soft-light;
+}
